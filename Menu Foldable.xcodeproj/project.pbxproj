@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90F0C681CDA198F007C2BF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F0C671CDA198F007C2BF4 /* AppDelegate.swift */; };
+		B90F0C6A1CDA198F007C2BF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F0C691CDA198F007C2BF4 /* ViewController.swift */; };
+		B90F0C6D1CDA198F007C2BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90F0C6B1CDA198F007C2BF4 /* Main.storyboard */; };
+		B90F0C6F1CDA198F007C2BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90F0C6E1CDA198F007C2BF4 /* Assets.xcassets */; };
+		B90F0C721CDA198F007C2BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90F0C701CDA198F007C2BF4 /* LaunchScreen.storyboard */; };
+		B90F0C7D1CDA198F007C2BF4 /* Menu_FoldableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F0C7C1CDA198F007C2BF4 /* Menu_FoldableTests.swift */; };
+		B90F0C881CDA198F007C2BF4 /* Menu_FoldableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F0C871CDA198F007C2BF4 /* Menu_FoldableUITests.swift */; };
+		B90F0C971CDA1A9F007C2BF4 /* MenuFoldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F0C951CDA1A9F007C2BF4 /* MenuFoldViewController.swift */; };
+		B90F0C981CDA1A9F007C2BF4 /* MenuFoldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90F0C961CDA1A9F007C2BF4 /* MenuFoldViewController.xib */; };
+		B90F0C9B1CDA1E9B007C2BF4 /* MenuItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F0C991CDA1E9B007C2BF4 /* MenuItemTableViewCell.swift */; };
+		B90F0C9C1CDA1E9B007C2BF4 /* MenuItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90F0C9A1CDA1E9B007C2BF4 /* MenuItemTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B90F0C791CDA198F007C2BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90F0C5C1CDA198F007C2BF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90F0C631CDA198F007C2BF4;
+			remoteInfo = "Menu Foldable";
+		};
+		B90F0C841CDA198F007C2BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90F0C5C1CDA198F007C2BF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90F0C631CDA198F007C2BF4;
+			remoteInfo = "Menu Foldable";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B90F0C641CDA198F007C2BF4 /* Menu Foldable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Menu Foldable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90F0C671CDA198F007C2BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B90F0C691CDA198F007C2BF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B90F0C6C1CDA198F007C2BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B90F0C6E1CDA198F007C2BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B90F0C711CDA198F007C2BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B90F0C731CDA198F007C2BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90F0C781CDA198F007C2BF4 /* Menu FoldableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Menu FoldableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90F0C7C1CDA198F007C2BF4 /* Menu_FoldableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_FoldableTests.swift; sourceTree = "<group>"; };
+		B90F0C7E1CDA198F007C2BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90F0C831CDA198F007C2BF4 /* Menu FoldableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Menu FoldableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90F0C871CDA198F007C2BF4 /* Menu_FoldableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_FoldableUITests.swift; sourceTree = "<group>"; };
+		B90F0C891CDA198F007C2BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90F0C951CDA1A9F007C2BF4 /* MenuFoldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuFoldViewController.swift; sourceTree = "<group>"; };
+		B90F0C961CDA1A9F007C2BF4 /* MenuFoldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuFoldViewController.xib; sourceTree = "<group>"; };
+		B90F0C991CDA1E9B007C2BF4 /* MenuItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemTableViewCell.swift; sourceTree = "<group>"; };
+		B90F0C9A1CDA1E9B007C2BF4 /* MenuItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuItemTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B90F0C611CDA198F007C2BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90F0C751CDA198F007C2BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90F0C801CDA198F007C2BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B90F0C5B1CDA198F007C2BF4 = {
+			isa = PBXGroup;
+			children = (
+				B90F0C661CDA198F007C2BF4 /* Menu Foldable */,
+				B90F0C7B1CDA198F007C2BF4 /* Menu FoldableTests */,
+				B90F0C861CDA198F007C2BF4 /* Menu FoldableUITests */,
+				B90F0C651CDA198F007C2BF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B90F0C651CDA198F007C2BF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B90F0C641CDA198F007C2BF4 /* Menu Foldable.app */,
+				B90F0C781CDA198F007C2BF4 /* Menu FoldableTests.xctest */,
+				B90F0C831CDA198F007C2BF4 /* Menu FoldableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B90F0C661CDA198F007C2BF4 /* Menu Foldable */ = {
+			isa = PBXGroup;
+			children = (
+				B90F0C671CDA198F007C2BF4 /* AppDelegate.swift */,
+				B90F0C691CDA198F007C2BF4 /* ViewController.swift */,
+				B90F0C6B1CDA198F007C2BF4 /* Main.storyboard */,
+				B90F0C6E1CDA198F007C2BF4 /* Assets.xcassets */,
+				B90F0C701CDA198F007C2BF4 /* LaunchScreen.storyboard */,
+				B90F0C731CDA198F007C2BF4 /* Info.plist */,
+				B90F0C951CDA1A9F007C2BF4 /* MenuFoldViewController.swift */,
+				B90F0C961CDA1A9F007C2BF4 /* MenuFoldViewController.xib */,
+				B90F0C991CDA1E9B007C2BF4 /* MenuItemTableViewCell.swift */,
+				B90F0C9A1CDA1E9B007C2BF4 /* MenuItemTableViewCell.xib */,
+			);
+			path = "Menu Foldable";
+			sourceTree = "<group>";
+		};
+		B90F0C7B1CDA198F007C2BF4 /* Menu FoldableTests */ = {
+			isa = PBXGroup;
+			children = (
+				B90F0C7C1CDA198F007C2BF4 /* Menu_FoldableTests.swift */,
+				B90F0C7E1CDA198F007C2BF4 /* Info.plist */,
+			);
+			path = "Menu FoldableTests";
+			sourceTree = "<group>";
+		};
+		B90F0C861CDA198F007C2BF4 /* Menu FoldableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B90F0C871CDA198F007C2BF4 /* Menu_FoldableUITests.swift */,
+				B90F0C891CDA198F007C2BF4 /* Info.plist */,
+			);
+			path = "Menu FoldableUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B90F0C631CDA198F007C2BF4 /* Menu Foldable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90F0C8C1CDA198F007C2BF4 /* Build configuration list for PBXNativeTarget "Menu Foldable" */;
+			buildPhases = (
+				B90F0C601CDA198F007C2BF4 /* Sources */,
+				B90F0C611CDA198F007C2BF4 /* Frameworks */,
+				B90F0C621CDA198F007C2BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Menu Foldable";
+			productName = "Menu Foldable";
+			productReference = B90F0C641CDA198F007C2BF4 /* Menu Foldable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B90F0C771CDA198F007C2BF4 /* Menu FoldableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90F0C8F1CDA198F007C2BF4 /* Build configuration list for PBXNativeTarget "Menu FoldableTests" */;
+			buildPhases = (
+				B90F0C741CDA198F007C2BF4 /* Sources */,
+				B90F0C751CDA198F007C2BF4 /* Frameworks */,
+				B90F0C761CDA198F007C2BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90F0C7A1CDA198F007C2BF4 /* PBXTargetDependency */,
+			);
+			name = "Menu FoldableTests";
+			productName = "Menu FoldableTests";
+			productReference = B90F0C781CDA198F007C2BF4 /* Menu FoldableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B90F0C821CDA198F007C2BF4 /* Menu FoldableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90F0C921CDA198F007C2BF4 /* Build configuration list for PBXNativeTarget "Menu FoldableUITests" */;
+			buildPhases = (
+				B90F0C7F1CDA198F007C2BF4 /* Sources */,
+				B90F0C801CDA198F007C2BF4 /* Frameworks */,
+				B90F0C811CDA198F007C2BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90F0C851CDA198F007C2BF4 /* PBXTargetDependency */,
+			);
+			name = "Menu FoldableUITests";
+			productName = "Menu FoldableUITests";
+			productReference = B90F0C831CDA198F007C2BF4 /* Menu FoldableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B90F0C5C1CDA198F007C2BF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Agus Cahyono";
+				TargetAttributes = {
+					B90F0C631CDA198F007C2BF4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B90F0C771CDA198F007C2BF4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B90F0C631CDA198F007C2BF4;
+					};
+					B90F0C821CDA198F007C2BF4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B90F0C631CDA198F007C2BF4;
+					};
+				};
+			};
+			buildConfigurationList = B90F0C5F1CDA198F007C2BF4 /* Build configuration list for PBXProject "Menu Foldable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B90F0C5B1CDA198F007C2BF4;
+			productRefGroup = B90F0C651CDA198F007C2BF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B90F0C631CDA198F007C2BF4 /* Menu Foldable */,
+				B90F0C771CDA198F007C2BF4 /* Menu FoldableTests */,
+				B90F0C821CDA198F007C2BF4 /* Menu FoldableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B90F0C621CDA198F007C2BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90F0C981CDA1A9F007C2BF4 /* MenuFoldViewController.xib in Resources */,
+				B90F0C721CDA198F007C2BF4 /* LaunchScreen.storyboard in Resources */,
+				B90F0C6F1CDA198F007C2BF4 /* Assets.xcassets in Resources */,
+				B90F0C9C1CDA1E9B007C2BF4 /* MenuItemTableViewCell.xib in Resources */,
+				B90F0C6D1CDA198F007C2BF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90F0C761CDA198F007C2BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90F0C811CDA198F007C2BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B90F0C601CDA198F007C2BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90F0C6A1CDA198F007C2BF4 /* ViewController.swift in Sources */,
+				B90F0C9B1CDA1E9B007C2BF4 /* MenuItemTableViewCell.swift in Sources */,
+				B90F0C681CDA198F007C2BF4 /* AppDelegate.swift in Sources */,
+				B90F0C971CDA1A9F007C2BF4 /* MenuFoldViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90F0C741CDA198F007C2BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90F0C7D1CDA198F007C2BF4 /* Menu_FoldableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90F0C7F1CDA198F007C2BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90F0C881CDA198F007C2BF4 /* Menu_FoldableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B90F0C7A1CDA198F007C2BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B90F0C631CDA198F007C2BF4 /* Menu Foldable */;
+			targetProxy = B90F0C791CDA198F007C2BF4 /* PBXContainerItemProxy */;
+		};
+		B90F0C851CDA198F007C2BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B90F0C631CDA198F007C2BF4 /* Menu Foldable */;
+			targetProxy = B90F0C841CDA198F007C2BF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B90F0C6B1CDA198F007C2BF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90F0C6C1CDA198F007C2BF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B90F0C701CDA198F007C2BF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90F0C711CDA198F007C2BF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B90F0C8A1CDA198F007C2BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B90F0C8B1CDA198F007C2BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B90F0C8D1CDA198F007C2BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Menu Foldable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.gaus.Menu-Foldable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B90F0C8E1CDA198F007C2BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Menu Foldable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.gaus.Menu-Foldable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B90F0C901CDA198F007C2BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Menu FoldableTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.gaus.Menu-FoldableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Menu Foldable.app/Menu Foldable";
+			};
+			name = Debug;
+		};
+		B90F0C911CDA198F007C2BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Menu FoldableTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.gaus.Menu-FoldableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Menu Foldable.app/Menu Foldable";
+			};
+			name = Release;
+		};
+		B90F0C931CDA198F007C2BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Menu FoldableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.gaus.Menu-FoldableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Menu Foldable";
+			};
+			name = Debug;
+		};
+		B90F0C941CDA198F007C2BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Menu FoldableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.gaus.Menu-FoldableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Menu Foldable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B90F0C5F1CDA198F007C2BF4 /* Build configuration list for PBXProject "Menu Foldable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90F0C8A1CDA198F007C2BF4 /* Debug */,
+				B90F0C8B1CDA198F007C2BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90F0C8C1CDA198F007C2BF4 /* Build configuration list for PBXNativeTarget "Menu Foldable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90F0C8D1CDA198F007C2BF4 /* Debug */,
+				B90F0C8E1CDA198F007C2BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B90F0C8F1CDA198F007C2BF4 /* Build configuration list for PBXNativeTarget "Menu FoldableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90F0C901CDA198F007C2BF4 /* Debug */,
+				B90F0C911CDA198F007C2BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B90F0C921CDA198F007C2BF4 /* Build configuration list for PBXNativeTarget "Menu FoldableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90F0C931CDA198F007C2BF4 /* Debug */,
+				B90F0C941CDA198F007C2BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B90F0C5C1CDA198F007C2BF4 /* Project object */;
+}
